@@ -1,9 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Bar } from 'react-chartjs-2';
-import * as ReactBootStrap from 'react-bootstrap';
 function DataProcessed(props){
-    console.log(props);
     let data = {
         labels: ['1', '2', '3', '4', '5+'],
         datasets:[

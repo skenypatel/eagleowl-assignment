@@ -32,7 +32,6 @@ class App extends Component {
 		let totalAmountOfOrders = lines.reduce(function(total, line){
 			return total+Number(line[3]);
 		},0)
-		console.log(totalAmountOfOrders);
 		
 		let counterMap = new Map();
 		lines.forEach(function(line){
@@ -52,7 +51,6 @@ class App extends Component {
 				numbers.push(value);
 			}
 		});
-		//console.log(numbers)
 		
 		let singleOrderNames=[];
 		lines.forEach(function(line){
@@ -63,8 +61,6 @@ class App extends Component {
 			}
 
 		});
-		console.log(singleOrderNames);
-		console.log(singleOrderNames.length);
 		
 		//2 times
 		let numbers2 = [];
@@ -73,7 +69,6 @@ class App extends Component {
 				numbers2.push(value);
 			}
 		});
-		console.log(numbers2.length);
 
 		//3 times
 		let numbers3 = [];
@@ -82,7 +77,6 @@ class App extends Component {
 				numbers3.push(value);
 			}
 		});
-		console.log(numbers3.length);
 
 
 		//4 times
@@ -92,7 +86,6 @@ class App extends Component {
 				numbers4.push(value);
 			}
 		});
-		console.log(numbers4.length);
 
 		//5 or more times
 		let numbers5 = [];
@@ -101,7 +94,6 @@ class App extends Component {
 				numbers5.push(value);
 			}
 		});
-		console.log(numbers5.length);
 
 		that.setState({
 				ordersRecieved : ordersRecieved,
