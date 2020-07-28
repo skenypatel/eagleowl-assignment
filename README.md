@@ -19,3 +19,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 In this project I have used Chartjs library for the bar graph. 
 Added table with CSS. Read the file using FileReader.
+
+Below is how it looks when rendered.
+
+![Image](data/Screenshot_2020-07-28 React App.png)
